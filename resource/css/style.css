@@ -1,0 +1,238 @@
+/* Universal Style */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  justify-content: center;
+  z-index: 0;
+}
+
+h2 {
+  font-size: 30px;
+  padding: 10px;
+  color: seashell;
+}
+
+h4 {
+  font-size: 16px;
+  padding: 10px;
+  color: seashell;
+}
+
+/* header */
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 5;
+}
+
+header .title {
+  flex-grow: 1;
+}
+
+header .title img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header nav {
+  padding-right: 10px;
+}
+
+header a:link {
+  color: seashell;
+}
+
+header a:visited {
+  color: seashell;
+}
+
+/* Mission */
+
+.mission {
+  position: relative;
+  top: 69px;
+  display: flex;
+  align-items: center;
+  background-image: url(../image/img2.jpg);
+  width: 100%;
+  height: 700px;
+}
+
+.mission-txt {
+  display: inline-block;
+  width: 100%;
+  flex-grow:1;
+  text-align: center;
+  padding-top: 10px;
+  background-color: black;
+  color: seashell;
+}
+
+
+
+
+/* Featured Tea */
+
+.featured {
+  position: relative;
+  top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.featured .text {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  color: seashell;
+  z-index: 4;
+}
+
+.featured img {
+  width: 300px;    
+}
+
+.featured h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: seashell;
+}
+
+.berry img {
+  margin-right: 10px;
+}
+
+.rum img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.donuts img {
+  margin-left: 10px;
+}
+
+.ave img {
+  margin-right: 10px;
+}
+
+.bedford img{
+  margin-left: 10px;
+}
+
+
+
+/* Locations */
+
+.locations {
+  position: relative;
+  top: 100px;
+  background-image: url(../image/img8.jpg);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.locations h2 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  top: -15px;
+  width: 180px;
+  z-index: 4;
+  font-weight: bold;
+  color: seashell;
+}
+
+.locations h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: seashell;
+}
+
+.locations-boxes {
+  display: flex;
+  justify-content: center;
+  z-index: 4;
+}
+
+.locations-boxes h2 {
+  font-size: 30px;
+  padding: 10px;
+  color: seashell;
+}
+
+.downtown {
+  width: 300px;
+  opacity: 1;
+  margin-right: 20px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: black;
+  z-index: 4;
+}
+
+.eastbayside {
+  width: 300px;
+  opacity: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: black;
+  z-index: 4;
+}
+
+.oakdale {
+  width: 300px;
+  opacity: 1;
+  margin-left: 20px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: black;
+  z-index: 4;
+}
+
+
+
+
+/* Info */
+
+.info {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.info h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.info .copy {
+  align-self: flex-start;
+  margin-left: 20px;
+}
